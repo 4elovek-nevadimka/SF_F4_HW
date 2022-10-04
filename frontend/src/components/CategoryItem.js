@@ -10,7 +10,7 @@ function CategoryItem(props) {
     return (
         <tr>
             <td>
-                <Link to={linkTo} state={ props.item.url }>{props.item.name}</Link>
+                <Link to={linkTo} state={ props.item }>{props.item.name}</Link>
             </td>
         </tr>
     );

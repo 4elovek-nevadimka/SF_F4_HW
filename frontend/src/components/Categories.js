@@ -7,6 +7,7 @@ import Table from 'react-bootstrap/Table';
 import "../styles/Categories.css";
 
 function Categories() {
+
     const [categories, setCategories] = useState([]);
     if (!categories.length) {
         axios.get("http://127.0.0.1:8000/categories/").then(res => {
