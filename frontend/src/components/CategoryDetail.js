@@ -19,7 +19,7 @@ function CategoryDetail() {
     return (
         <>
             <h2>
-                Selected category: {location.state.name}
+                {location.state.name}
             </h2>
             <hr />
             <Table striped bordered hover className="recipes">

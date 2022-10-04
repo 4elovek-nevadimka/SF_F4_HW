@@ -1,14 +1,20 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
-function RecipeDetail(props) {
+function RecipeDetail() {
 
-    params = useParams();
+    const location = useLocation();
 
     return (
-        <h2>
-            Selected recipe {params.id}
-        </h2>
+        <>
+            <h2>
+                {location.state.title}
+            </h2>
+            <hr />
+            <p>
+                {location.state.content}
+            </p>
+        </>
     );
 }
 
