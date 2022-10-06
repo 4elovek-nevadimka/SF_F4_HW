@@ -17,6 +17,7 @@ function Categories() {
 
     return (
         <>
+            <a className="api-link" href="http://127.0.0.1:8000/swagger-ui/">API here</a>
             <Table striped bordered hover className="categories">
                 <thead>
                     <tr>

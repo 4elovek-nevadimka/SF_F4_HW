@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import "../styles/App.css";
+
 import Categories from "./Categories";
 import CategoryDetail from "./CategoryDetail";
 import RecipeDetail from "./RecipeDetail";
